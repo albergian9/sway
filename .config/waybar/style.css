@@ -67,6 +67,7 @@
 #backlight,
 #pulseaudio,
 #battery,
+#power-profiles-daemon,
 #clock,
 #tray {
     padding:0.5rem 0.6rem;
