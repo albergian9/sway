@@ -75,6 +75,7 @@
         "backlight",
         "pulseaudio",
         "battery",
+        "power-profiles-daemon",
         "clock",
         "tray",
         "custom/power"
@@ -129,7 +130,7 @@
     },
 
     "pulseaudio": {
-        "scroll-step": 2,
+        "scroll-step": 5,
         "format": "{icon} {volume}%",
         "format-muted":"󰝟 muted",
         "format-icons": {
@@ -151,6 +152,18 @@
         },
         "format": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""]
+    },
+
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+                "default": "",
+                "performance": "",
+                "balanced": "",
+                "power-saver": ""
+        },
     },
 
     "clock": {
